@@ -29,13 +29,12 @@ void PrintArray(double[] arr)
 
 double MinAndMaxValue(double[] arr)
 {
-
     double max = 0;
     double min = 999;
     for (int i = 0; i < arr.Length; i++)
     {
-        if(max < arr[i]) max = arr[i];
-        if(min > arr[i]) min = arr[i];
+        if (max < arr[i]) max = arr[i];
+        if (min > arr[i]) min = arr[i];
     }
     return max - min;
 }
